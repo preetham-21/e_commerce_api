@@ -1,0 +1,104 @@
+/* 🌌 Global Dark Theme */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+/* Center everything */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card UI */
+.card {
+  background: #121212;
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(255, 20, 147, 0.2);
+  border: 1px solid rgba(255, 20, 147, 0.3);
+}
+
+/* Headings */
+h1, h2 {
+  color: #ff2fd3;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: white;
+  border: 1px solid #8a2be2;
+}
+
+/* Neon Glow on focus */
+input:focus {
+  box-shadow: 0 0 10px #ff2fd3;
+}
+
+/* Buttons */
+button {
+  width: 95%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #8a2be2, #ff2fd3);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Hover Glow */
+button:hover {
+  box-shadow: 0 0 15px #ff2fd3;
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  color: #ff2fd3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Product Cards */
+.product-card {
+  background: #121212;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #8a2be2;
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+}
+
+/* Dashboard Layout */
+.dashboard {
+  text-align: center;
+  padding: 40px;
+}
+
+.dashboard a {
+  display: block;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #8a2be2, #ff2fd3);
+}
